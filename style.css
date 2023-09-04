@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Mulish;
+  }
+:root{
+    font-size: 62.5%;
+}
+body{
+    background: #F4FCFF;
+}
+
+header, footer{
+    background-color: #065E7C;
+}
+header .logo img{
+    background-color: white;
+    padding: 8px;
+    border-radius: 9999px;
+    background: #F4FCFF;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 1.6rem 2.8rem;
+}
+header input{
+    display: flex;
+    padding: 12px 16px 12px 14px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.20);
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+header ::placeholder{
+    color: hsla(0, 0%, 100%, 1);
+}
+main{
+    margin:3.1rem 2.4rem 4.1rem;
+}
+main .primary img{
+    width: 434px;
+    height: 219px;
+    margin: 0;
+}
+#app{
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 8px;
+    margin-bottom: 3.1rem ;
+}
+.buttonslegend button{
+    padding: 1.2rem; 
+    border-radius: 100.0rem;
+    background:#065E7C;
+    border: none;
+}
+.buttonslegend button:hover{
+    background: #0e475a;
+}
+h1{
+    color: var(--platform-aliases-shape-principal, #202024);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+p{
+    color: #121214;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.sidebar h2{
+    color:#202024;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 3.2rem;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.6rem;
+}
+.links h3{
+    color: #202024;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.links img{
+    width: 151px;
+    height: 84px;
+    border-radius: 5px;
+    
+}
+.sidebar p{
+    width: 215px;
+    color:#121214;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer{
+display: flex;
+padding: 1.6rem;
+justify-content: center;
+align-items: center;
+background: #387E96;
+}
+footer p{
+    color: #FFF;
+font-size: 1.6rem;
+font-weight: 600;
+}
+@media (min-width: 1400px){
+
+main{
+  display: flex;
+    margin: 50px auto ;
+ 
+}
+main .primary img{
+    width: 803px;
+    height: 405px;
+}
+.buttonslegend{
+    width: 800px;
+}
+.sidebar{
+    margin-left: 3.4rem;
+}
+header input{
+    width: 1083px;
+}
+.cambiarbutons{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons{
+   margin-top: 3.1rem;
+}
+}
